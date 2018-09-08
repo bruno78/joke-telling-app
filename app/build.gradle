@@ -50,4 +50,6 @@ dependencies {
 
     // Implementing Jokeslib library
     implementation project(":jokeslib")
+    // Implementing DisplayJoke library
+    implementation project(path: ':displayjoke')
 }
