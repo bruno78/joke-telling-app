@@ -42,12 +42,26 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void tellJoke(View view) {
-        Jokes joker = new Jokes();
-        String joke = joker.getJoke();
-        // Toast.makeText(this, joke, Toast.LENGTH_SHORT).show();
+    // This method retrieves jokes directly from the Java Library and send to
+    // Android Library to be displayed
+//    public void tellJoke(View view) {
+//        Jokes joker = new Jokes();
+//        String joke = joker.getJoke();
+//        // Toast.makeText(this, joke, Toast.LENGTH_SHORT).show();
+//
+//        sendJokeToDisplayLibrary(joke);
+//    }
 
-        sendJokeToDisplayLibrary(joke);
+    // This method retrieves jokes from Google Cloud which retrieves from Java Library to be displayed
+    public void tellJoke(View view) {
+        RetrieveJokeAsyncTask task = new RetrieveJokeAsyncTask();
+
+        task.setListener(new RetrieveJokeAsyncTask.OnJokeLoaded() {
+            @Override
+            public void success(String result) {
+                sendJokeToDisplayLibrary(result);
+            }
+        }).execute();
     }
 
     private void sendJokeToDisplayLibrary(String joke) {
