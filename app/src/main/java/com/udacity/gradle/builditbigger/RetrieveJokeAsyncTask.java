@@ -15,8 +15,11 @@ import java.io.IOException;
  */
 
 public class RetrieveJokeAsyncTask extends AsyncTask<Void, Void, String> {
-
+    // Use this if you're using an emulator
     private final static String ROOT_URL = "http://10.0.2.2:8080/_ah/api/";
+
+    // Use this if you're using a phone or physical device
+    // private final static String ROOT_URL = "http://0.0.0.0:8080/_ah/api/";
 
     private OnJokeLoaded mCallback;
     private static MyApi myApiService = null;

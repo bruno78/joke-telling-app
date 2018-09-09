@@ -9,7 +9,7 @@
   }
  },
  "basePath": "/_ah/api/myApi/v1/",
- "baseUrl": "https://myApplicationId.appspot.com/_ah/api/myApi/v1/",
+ "baseUrl": "https://telling-jokes-android-app.appspot.com/_ah/api/myApi/v1/",
  "batchPath": "batch",
  "description": "This is an API",
  "discoveryVersion": "v1",
@@ -102,7 +102,7 @@
   }
  },
  "protocol": "rest",
- "rootUrl": "https://myApplicationId.appspot.com/_ah/api/",
+ "rootUrl": "https://telling-jokes-android-app.appspot.com/_ah/api/",
  "schemas": {
   "JokeBean": {
    "id": "JokeBean",
