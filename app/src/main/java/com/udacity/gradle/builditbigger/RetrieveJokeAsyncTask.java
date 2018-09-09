@@ -17,6 +17,7 @@ import java.io.IOException;
 public class RetrieveJokeAsyncTask extends AsyncTask<Void, Void, String> {
     // Use this if you're using an emulator
     private final static String ROOT_URL = "http://10.0.2.2:8080/_ah/api/";
+    public final static String ERROR_MESSAGE = "Unable to retrieve joke. Check your Internet connection.";
 
     // Use this if you're using a phone or physical device
     // private final static String ROOT_URL = "http://0.0.0.0:8080/_ah/api/";
@@ -59,7 +60,7 @@ public class RetrieveJokeAsyncTask extends AsyncTask<Void, Void, String> {
             return myApiService.loadJoke().execute().getJoke();
         } catch (IOException e) {
             e.printStackTrace();
-            return e.getMessage();
+            return ERROR_MESSAGE;
         }
     }
 
