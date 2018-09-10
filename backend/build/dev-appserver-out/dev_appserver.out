@@ -1,0 +1,30 @@
+Warning: Google App Engine Java 7 runtime is deprecated.
+Warning: See https://cloud.google.com/appengine/docs/deprecations/java7
+Sep 10, 2018 3:07:54 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value '/Users/brunogtavares/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/config/sdk/logging.properties' with value 'WEB-INF/logging.properties' from '/Users/brunogtavares/Desktop/Exercises/Udacity/Android-Nanodegree/FinalProject/backend/build/exploded-backend/WEB-INF/appengine-web.xml'
+Sep 10, 2018 3:07:54 PM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: Logging to JettyLogger(null) via com.google.apphosting.utils.jetty.JettyLogger
+Sep 10, 2018 7:07:56 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNING: Your working directory, (/Users/brunogtavares/Desktop/Exercises/Udacity/Android-Nanodegree/FinalProject) is not equal to your 
+web application root (/Users/brunogtavares/Desktop/Exercises/Udacity/Android-Nanodegree/FinalProject/backend/build/exploded-backend)
+You will not be able to access files from your working directory on the production server.
+
+Sep 10, 2018 7:07:56 PM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: jetty-6.1.x
+Sep 10, 2018 7:07:59 PM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: Started SelectChannelConnector@localhost:8080
+Sep 10, 2018 7:07:59 PM com.google.appengine.tools.development.AbstractModule startup
+INFO: Module instance default is running at http://localhost:8080/
+Sep 10, 2018 7:07:59 PM com.google.appengine.tools.development.AbstractModule startup
+INFO: The admin console is running at http://localhost:8080/_ah/admin
+Sep 10, 2018 3:07:59 PM com.google.appengine.tools.development.DevAppServerImpl doStart
+INFO: Dev App Server is now running
+Sep 10, 2018 3:13:49 PM com.google.appengine.tools.development.JettyContainerService$ScannerListener fileChanged
+INFO: /Users/brunogtavares/Desktop/Exercises/Udacity/Android-Nanodegree/FinalProject/backend/build/exploded-backend/WEB-INF/appengine-web.xml updated, reloading the webapp!
+Sep 10, 2018 3:13:51 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value '/Users/brunogtavares/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/config/sdk/logging.properties' with value 'WEB-INF/logging.properties' from '/Users/brunogtavares/Desktop/Exercises/Udacity/Android-Nanodegree/FinalProject/backend/build/exploded-backend/WEB-INF/appengine-web.xml'
+Sep 10, 2018 3:13:52 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNING: Your working directory, (/Users/brunogtavares/Desktop/Exercises/Udacity/Android-Nanodegree/FinalProject) is not equal to your 
+web application root (/Users/brunogtavares/Desktop/Exercises/Udacity/Android-Nanodegree/FinalProject/backend/build/exploded-backend)
+You will not be able to access files from your working directory on the production server.
+
