@@ -212,7 +212,5 @@
     <orderEntry type="library" name="com.android.support:support-v4-27.1.1" level="project" />
     <orderEntry type="module" module-name="jokeslib" />
     <orderEntry type="module" module-name="displayjoke" />
-    <orderEntry type="module" module-name="jokeslib" />
-    <orderEntry type="module" module-name="displayjoke" />
   </component>
 </module>
