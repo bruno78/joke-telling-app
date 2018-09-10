@@ -1,6 +1,6 @@
 # Telling Joke App
 
-<p align="center"><img src= width=200 alt="demo of telling joke app"></p>
+<p align="center"><img src="https://cdn.rawgit.com/bruno78/joke-telling-app/9bb56dc8/assets/telling-joke-demo.gif" width="200" alt="demo of telling joke app" /></p>
 
 ## Project Overview (Gradle for Android and Java Final Project)
 
@@ -13,7 +13,8 @@ The finished app will consist of four modules:
 4. An Android app that fetches jokes from the GCE module and passes them to the Android Library for display
 
 When done the project will have this scheme:
-<p align="center"><img src= width=200 alt="demo of telling joke app"></p>
+
+<p align="center"><img src="https://cdn.rawgit.com/bruno78/joke-telling-app/9bb56dc8/assets/application-scheme.png" width="200" alt="application scheme"></p>
 
 ## Why this Project
 
